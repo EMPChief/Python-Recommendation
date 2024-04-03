@@ -1,0 +1,4 @@
+
+# Exclude all directories named "venv"
+venv/
+.venv/
