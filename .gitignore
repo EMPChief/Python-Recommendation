@@ -1,4 +1,57 @@
 
-# Exclude all directories named "venv"
+# Directories
+
+# Ignore Python virtual environments
 venv/
 .venv/
+
+# Ignore directories created by some editors
+.directory
+
+# Ignore log files
+*.log
+*.log.*
+
+# Ignore media files
+*.mov
+*.mpg
+*.mpeg
+*.mp4
+*.avi
+
+# Ignore temporary files
+*~
+
+# Ignore backup files
+*.*~
+
+# Ignore macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore build files
+build/
+dist/
+*.egg-info/
+.eggs/
+*.pyc
+*.pyo
+*.egg
+.tox/
+
+# Ignore test files
+.cache/
+.pytest_cache/
+__pycache__/
+
+# Ignore editor swap / backup files
+.*.swp
+.*.swx
+.*.swo
+
